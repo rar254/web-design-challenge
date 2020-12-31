@@ -1,1 +1,57 @@
 /* Your stylesheet */
+body {
+    background: #eee;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+  }
+
+.container {
+    border: solid;
+    margin-top: 15px;
+}
+
+  #landing-image{
+    float: left;
+    position: relative;
+    width: 60%;
+    height: 60%;
+    padding: 20px;
+}
+
+.navbar-light {
+    color: turquoise;
+  }
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(20, 150, 150);
+    padding: 10px;
+    margin-left: 5%;
+  }
+.navbar-collapse {
+    position: absolute;
+    right: 5%;
+    font-size: small;
+  }
+
+.navbar {
+    padding: 0;
+  }
+.resize {
+    width: 50%;
+    height: 25%;
+}
+.main-image {      
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    float: left;
+}
+
+@include media-breakpoint-down(md) {
+    .col-md-8 {
+      display: block;
+    }
+  }
